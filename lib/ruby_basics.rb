@@ -22,11 +22,11 @@ def last_evaluated_value
   "expert"
 end
 
-def pizza_party(topping)
-  topping = "cheese"
+def pizza_party(topping="cheese")
   topping
 end
 
 
 division(12, 2)
 assign_variable("Bob")
+pizza_party("pepperoni")
